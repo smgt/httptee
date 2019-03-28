@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	log "github.com/Sirupsen/logrus"
 	"github.com/sergi/go-diff/diffmatchpatch"
+	log "github.com/sirupsen/logrus"
 )
 
 var base, compare string
